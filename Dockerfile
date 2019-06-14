@@ -1,5 +1,5 @@
-FROM daocloud.io/xiaochengong/docker-matlab-runtime
-MAINTAINER xiaochengong <xiaochengong@.com>
+FROM daocloud.io/chengong/docker-matlab-runtime
+MAINTAINER chengong <xiaochengong@.126com>
 WORKDIR /mcr-install
 RUN ./install -mode silent -agreeToLicense yes
 RUN cd /
